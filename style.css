@@ -1,81 +1,104 @@
-    h1{
-        font-size: larger;
-        font-family: Georgia, sans-serif;
-        color: cornflowerblue;
-        /*background-color: deepskyblue;*/
-    }
-    header h1{
-        padding: 5%;
-        font-variant: small-caps;
-        border-bottom: 3px dashed royalblue;
-    }
-    header {
-        background-color: black; /*floralwhite tausta värv*/
-        background-image: url("pilt.png");
-        background-repeat: no-repeat;
-    }
-    footer{
-        width: 100%;
-        padding: 5%;
-        background-color: black; /*floralwhite tausta värv*/
-        font-variant: small-caps;
-        border-top: 3px dashed royalblue;
+body {
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: larger;
+    font-family: Georgia, sans-serif;
+    color: cornflowerblue;
+    background-color: black
+}
+header h1{
+    padding: 5%;
+    font-variant: small-caps;
+    background-color: black;
+    border-bottom: 3px dashed royalblue;
+}
+header {
+    background-color: black; /*floralwhite tausta värv*/
+    background-image: url("pilt.png");
+    background-repeat: no-repeat;
+}
+footer{
+    width: 100%;
+    padding: 5%;
+    background-color: black; /*floralwhite tausta värv*/
+    font-variant: small-caps;
+    border-top: 3px dashed royalblue;
 
-    }
-    section#kast1{
-        border: 2px dashed dodgerblue; /*solid, double, dashed, dotted*/
-        width: 25%;
-        margin: 5px;
-        padding: 3%;
-        border-radius: 120px 10px 120px 10px;
-        text-align: center;
-    }
-    section#kast2{
-        border: 2px dotted dodgerblue; /*solid, double, dashed, dotted*/
-        width: 25%;
-        margin: 5px;
-        padding: 2%;
-        border-radius: 100px 100px 100px 100px;
-        text-align: center;
-    }
-    /*--NAV--*/
-    nav ul{
-        list-style-type: none; /*täpp võtab ära*/
-        margin: 0;
-        padding: 0;
-        background-color: ghostwhite;
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    nav ul li{
-        float: left;
-    }
-    nav ul li a{
-        display: block;
-        color: royalblue;
-        text-decoration: none; /* alljoone on kustutatud*/
-        padding: 10px;
-        text-align: center;
-        border-left: 2px solid royalblue;
-        border-radius: 20%;
-        font-variant: small-caps;
-    }
-    nav ul li a:hover{ /*link fokuses - hiir on peal*/
-        background-color: lightsteelblue;
-    }
-    nav{
-        padding: 30px;
-        margin: 10px;
-    }
-    main{
-        margin: 20px;
-    }
+}
+section#kast1{
+    border: 2px dashed dodgerblue; /*solid, double, dashed, dotted*/
+    width: 25%;
+    margin: 5px;
+    padding: 3%;
+    border-radius: 120px 10px 120px 10px;
+    text-align: center;
+    background-color: rgba(65, 105, 225, 0.5);
+}
+section#kast2{
+    border: 2px dotted dodgerblue; /*solid, double, dashed, dotted*/
+    width: 25%;
+    margin: 5px;
+    padding: 2%;
+    border-radius: 100px 100px 100px 100px;
+    text-align: center;
+    background-color: rgba(65, 105, 225, 0.5);
+}
+/*--NAV--*/
+nav ul{
+    list-style-type: none; /*täpp võtab ära*/
+    margin: 0;
+    padding: 0;
+    background-color: rgba(65, 105, 225, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: royalblue;
+    text-decoration: none; /* alljoone on kustutatud*/
+    padding: 10px;
+    text-align: center;
+    border-left: 2px solid royalblue;
+    border-radius: 20%;
+    font-variant: small-caps;
+}
+nav ul li a:hover{ /*link fokuses - hiir on peal*/
+    background-color: lightsteelblue;
+}
+nav{
+    padding: 30px;
+    margin: 10px;
+}
+main{
+    margin: 20px;
+}
 
-    #suurkast {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
+#suurkast {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+section#pildigalerii{
+    width: 105%;
+    background-color: royalblue;
+    border-radius: 50px 50px 50px 50px;
+}
+#video iframe {
+    width: 100%;
+    min-height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+#muusika iframe {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
