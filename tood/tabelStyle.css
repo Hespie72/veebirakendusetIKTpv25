@@ -29,3 +29,12 @@ table#keeruline2 td{
 .nimia{
     background-color: limegreen;
 }
+
+table#keeruline3{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+.nimia{
+    width: 10px;
+}
