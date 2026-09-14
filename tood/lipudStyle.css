@@ -111,7 +111,19 @@
 #sveits tr:nth-child(2) td:nth-child(5) {
     background-color: red;
 }
-
+#sveits tr:nth-child(3) td:nth-child(1),
+#sveits tr:nth-child(3) td:nth-child(5){
+    background-color: red;
+}
+#sveits tr:nth-child(4) td:nth-child(1),
+#sveits tr:nth-child(4) td:nth-child(2),
+#sveits tr:nth-child(4) td:nth-child(4),
+#sveits tr:nth-child(4) td:nth-child(5) {
+    background-color: red;
+}
+#sveits tr:nth-child(5) {
+    background-color: red;
+}
 #sveits td{
     border: 0 solid lightgray;
 }

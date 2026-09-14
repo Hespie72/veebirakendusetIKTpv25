@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="" />
+    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tood/maparea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/monitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/prygi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tood.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tood/lipudStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/tood/lipudStyle.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,12 +56,14 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.maparea.html.executor": "Run",
     "JavaScript Debug.tabelid.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/opilane/Desktop/veebirakenduset/tood",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,6 +75,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\opilane\Desktop\veebirakenduset\tood" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,7 +97,7 @@
       <updated>1789033810213</updated>
       <workItem from="1789033811643" duration="4547000" />
       <workItem from="1789379880417" duration="80000" />
-      <workItem from="1789379968884" duration="4625000" />
+      <workItem from="1789379968884" duration="9275000" />
     </task>
     <servers />
   </component>
