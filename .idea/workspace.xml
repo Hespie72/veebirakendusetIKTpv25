@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tood/maparea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/monitor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/prygi.html" afterDir="false" />
+    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="lisa map area">
+      <change afterPath="$PROJECT_DIR$/tood/iseseisevStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/iseseisevtabel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/lipudStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/tood/lipudStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tood/tabelid.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/tabelid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -97,11 +95,23 @@
       <updated>1789033810213</updated>
       <workItem from="1789033811643" duration="4547000" />
       <workItem from="1789379880417" duration="80000" />
-      <workItem from="1789379968884" duration="9275000" />
+      <workItem from="1789379968884" duration="14739000" />
     </task>
+    <task id="LOCAL−00001" summary="lisa map area">
+      <option name="closed" value="true" />
+      <created>1789389962513</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1789389962513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lisa map area" />
+    <option name="LAST_COMMIT_MESSAGE" value="lisa map area" />
   </component>
 </project>
