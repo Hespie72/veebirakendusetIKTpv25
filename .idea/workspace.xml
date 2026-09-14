@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tood/lipudStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/tabelid.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/tabelid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +30,9 @@
     &quot;assignee&quot;: &quot;Hespie72&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b0e9aa50-0d0f-40ba-8646-568f2c0b9de3" />
+  </component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Hespie72/veebirakendusetIKTpv25.git",
@@ -84,7 +85,7 @@
       <updated>1789033810213</updated>
       <workItem from="1789033811643" duration="4547000" />
       <workItem from="1789379880417" duration="80000" />
-      <workItem from="1789379968884" duration="1739000" />
+      <workItem from="1789379968884" duration="2172000" />
     </task>
     <servers />
   </component>
