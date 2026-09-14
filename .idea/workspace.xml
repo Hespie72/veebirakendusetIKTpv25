@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/lipudStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/tood/lipudStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/tabelid.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/tabelid.html" afterDir="false" />
-    </list>
+    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +83,7 @@
       <updated>1789033810213</updated>
       <workItem from="1789033811643" duration="4547000" />
       <workItem from="1789379880417" duration="80000" />
-      <workItem from="1789379968884" duration="4303000" />
+      <workItem from="1789379968884" duration="4625000" />
     </task>
     <servers />
   </component>
