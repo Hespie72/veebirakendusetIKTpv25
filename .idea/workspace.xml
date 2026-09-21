@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="lisa map area">
-      <change afterPath="$PROJECT_DIR$/tood/papagoi/PapagoiStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiKäpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiNokk.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiRind.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiSilm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiSuled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiTiivad.html" afterDir="false" />
+    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="lisa map area ja küsimustlik">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kusimustik/kusimustik.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kusimustik/kusimustik.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kusimustik/vormStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kusimustik/vormStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/maparea.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/maparea.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +96,7 @@
       <workItem from="1789379880417" duration="80000" />
       <workItem from="1789379968884" duration="14739000" />
       <workItem from="1789984085322" duration="7290000" />
-      <workItem from="1789991773467" duration="7013000" />
+      <workItem from="1789991773467" duration="8075000" />
     </task>
     <task id="LOCAL−00001" summary="lisa map area">
       <option name="closed" value="true" />
@@ -130,7 +119,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1789991739352</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="lisa map area ja küsimustlik">
+      <option name="closed" value="true" />
+      <created>1789999528691</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1789999528691</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lisa map area" />
-    <option name="LAST_COMMIT_MESSAGE" value="lisa map area" />
+    <MESSAGE value="lisa map area ja küsimustlik" />
+    <option name="LAST_COMMIT_MESSAGE" value="lisa map area ja küsimustlik" />
   </component>
 </project>
