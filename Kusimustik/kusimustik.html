@@ -3,72 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <title>Muusika küsimustik</title>
+    <link rel="stylesheet" href="vormStyle.css">
 </head>
 <body>
 <h1>Muusika küsimustik</h1>
 <div>HTML vormid ja nupud</div>
 <form action="#">
 <!-- c + tab komentaar -->
-<!-- Tekstkast -->
-<label for="nimi">Nimi: </label>
-<input type="text" id="nimi" placeholder="Vitalii" autofocus required>
-    <!-- ripploend või rippmenüü -->
+    <table border="1">
+        <tr>
+            <td>
+                <!-- Tekstkast -->
+                <label for="nimi">Nimi: </label>
+            </td>
+            <td>
+                <input type="text" id="nimi" placeholder="Vitalii" autofocus required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- ripploend või rippmenüü -->
 
-    <label for="stiil">Vali meeldivaim muusikastiil</label>
-    <br>
-    <select name="stiil" id="stiil">
-        <option value="vali">vali...</option>
-        <option value="hiphop">hiphop</option>
-        <option value="kantri">kantri</option>
-        <option value="rock">rock</option>
-        <option value="metal">metal</option>
-        <option value="jazz">jazz</option>
-    </select>
-    <br>
-    <!-- radio nupud -üks valik mitmest -->
-    <label for="">
-        Kuidas sa muusikat peamiselt kuulad?
-    </label>
-    <br>
-    <input type="radio" name="platvorm" id="spotify">
-    <label for="spotify">Spotify</label>
-    <br>
-    <input type="radio" name="platvorm" id="soundcloud">
-    <label for="soundcloud">Soundcloud</label>
-    <br>
-    <input type="radio" name="platvorm" id="youtube">
-    <label for="youtube">YouTube</label>
-    <br>
-    <input type="radio" name="platvorm" id="raadio">
-    <label for="raadio">Raadio</label>
-
-    <!-- checkbox -->
-    <fieldset>
-        <legend>Tee oma valikud - lemmik ansambel</legend>
-        <input type="checkbox" name="lemmikud" id="radiohead">
-        <label for="radiohead">Radiohead</label>
-        <br>
-        <input type="checkbox" name="lemmikud" id="the smashing pumpkins">
-        <label for="the smashing pumpkins">The Smashing Pumpkins</label>
-        <br>
-        <input type="checkbox" name="lemmikud" id="the smiths">
-        <label for="the smiths">The Smiths</label>
-        <br>
-        <input type="checkbox" name="lemmikud" id="have a nice life">
-        <label for="have a nice life">Have A Nice Life</label>
-        <br>
-        <input type="checkbox" name="lemmikud" id="slowdive">
-        <label for="slowdive">Slowdive</label>
-        <br>
-        <input type="checkbox" name="lemmikud" id="muse">
-        <label for="muse">Muse</label>
-        <br>
-    </fieldset>
-    <!-- range - vahemik -->
-    <label for="tund">
-        Mitu tundi päevas sa kuulad muusikat
-    </label>
-    0<input type="range" id="tund" min="0" max="24" value="">24
+                <label for="stiil">Vali meeldivaim muusikastiil</label>
+            </td>
+            <td>
+                <select name="stiil" id="stiil">
+                    <option value="vali">vali...</option>
+                    <option value="hiphop">hiphop</option>
+                    <option value="kantri">kantri</option>
+                    <option value="rock">rock</option>
+                    <option value="metal">metal</option>
+                    <option value="jazz">jazz</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- radio nupud -üks valik mitmest -->
+                    Kuidas sa muusikat peamiselt kuulad?
+            </td>
+            <td>
+                <input type="radio" name="platvorm" id="spotify">
+                <label for="spotify">Spotify</label>
+                <br>
+                <input type="radio" name="platvorm" id="soundcloud">
+                <label for="soundcloud">Soundcloud</label>
+                <br>
+                <input type="radio" name="platvorm" id="youtube">
+                <label for="youtube">YouTube</label>
+                <br>
+                <input type="radio" name="platvorm" id="raadio">
+                <label for="raadio">Raadio</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <!-- checkbox -->
+                <fieldset>
+                    <legend>Tee oma valikud - lemmik ansambel</legend>
+                    <input type="checkbox" name="lemmikud" id="radiohead">
+                    <label for="radiohead">Radiohead</label>
+                    <br>
+                    <input type="checkbox" name="lemmikud" id="the smashing pumpkins">
+                    <label for="the smashing pumpkins">The Smashing Pumpkins</label>
+                    <br>
+                    <input type="checkbox" name="lemmikud" id="the smiths">
+                    <label for="the smiths">The Smiths</label>
+                    <br>
+                    <input type="checkbox" name="lemmikud" id="have a nice life">
+                    <label for="have a nice life">Have A Nice Life</label>
+                    <br>
+                    <input type="checkbox" name="lemmikud" id="slowdive">
+                    <label for="slowdive">Slowdive</label>
+                    <br>
+                    <input type="checkbox" name="lemmikud" id="muse">
+                    <label for="muse">Muse</label>
+                    <br>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- range - vahemik -->
+                <label for="tund">
+                    Mitu tundi päevas sa kuulad muusikat
+                </label>
+            </td>
+            <td>
+                0<input type="range" id="tund" min="0" max="24" value="">24
+            </td>
+        </tr>
+        <tr>
+            <td> Input type=color, file, email, jne kokku 5-6tk</td>
+            <td>w3schools.com</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="data">Mis päev täna on</label>
+            </td>
+            <td><input type="date" id="data" name="data"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="myfile">Vali a file (muusikainstrument):</label>
+            </td>
+            <td>
+                <input type="file" id="myfile" name="myfile">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="homepage">Lisa URl sinu lemmik laul:</label>
+            </td>
+            <td>
+                <input type="url" id="homepage" name="homepage">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="quantity">Kui sageli sa muusikat kuulad? (1 kuni 5):</label></td>
+            <td>  <input type="number" id="quantity" name="quantity" min="1" max="5"></td>
+        </tr>
+        <tr>
+            <td><label for="favcolor">Millist värvi seostad oma lemmikbändiga?:</label></td>
+            <td><input type="color" id="favcolor" name="favcolor"></td>
+        </tr>
+        <tr>
+            <td>
+                saada vorm
+            </td>
+            <td><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
 
 </form>
 </body>

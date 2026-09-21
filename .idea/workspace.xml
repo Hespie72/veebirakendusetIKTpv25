@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="lisa map area">
+      <change afterPath="$PROJECT_DIR$/Kusimustik/vormStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kusimustik/kusimustik.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kusimustik/kusimustik.html" afterDir="false" />
     </list>
@@ -17,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -92,7 +93,7 @@
       <workItem from="1789033811643" duration="4547000" />
       <workItem from="1789379880417" duration="80000" />
       <workItem from="1789379968884" duration="14739000" />
-      <workItem from="1789984085322" duration="2232000" />
+      <workItem from="1789984085322" duration="5081000" />
     </task>
     <task id="LOCAL−00001" summary="lisa map area">
       <option name="closed" value="true" />
