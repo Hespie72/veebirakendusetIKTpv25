@@ -26,4 +26,6 @@ input[type=radio]:hover{
 }
 input[type=checkbox]+label{
     background-color: lightblue;
+    font-weight: bold;
+
 }

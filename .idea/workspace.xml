@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="lisa map area" />
+    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="lisa map area">
+      <change afterPath="$PROJECT_DIR$/tood/papagoi/PapagoiStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiKäpp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiNokk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiRind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiSilm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiSuled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/papagoi/papagoiTiivad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kusimustik/kusimustik.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kusimustik/kusimustik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kusimustik/vormStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kusimustik/vormStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tood/maparea.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/maparea.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +44,12 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="7f0ee36c-4585-4484-bac0-5e47c3f6f85f" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:/Hespie72/veebirakendusetIKTpv25.git",
-    "accountId": "92a13e63-a496-489b-aaa7-f896424550a6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/Hespie72/veebirakendusetIKTpv25.git&quot;,
+    &quot;accountId&quot;: &quot;7f0ee36c-4585-4484-bac0-5e47c3f6f85f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -57,7 +70,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/opilane/Desktop/veebirakenduset/tood",
+    "last_opened_file_path": "C:/Users/opilane/Desktop/veebirakendusetIKTpv25/tood/papagoi",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -71,6 +84,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\opilane\Desktop\veebirakendusetIKTpv25\tood\papagoi" />
       <recent name="C:\Users\opilane\Desktop\veebirakenduset\tood" />
     </key>
   </component>
@@ -92,7 +106,8 @@
       <workItem from="1789033811643" duration="4547000" />
       <workItem from="1789379880417" duration="80000" />
       <workItem from="1789379968884" duration="14739000" />
-      <workItem from="1789984085322" duration="7150000" />
+      <workItem from="1789984085322" duration="7290000" />
+      <workItem from="1789991773467" duration="7013000" />
     </task>
     <task id="LOCAL−00001" summary="lisa map area">
       <option name="closed" value="true" />
@@ -108,7 +123,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1789991246541</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="lisa map area">
+      <option name="closed" value="true" />
+      <created>1789991739352</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1789991739352</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

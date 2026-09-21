@@ -5,26 +5,59 @@
     <title>Title</title>
 </head>
 <body>
+<nav>
+    <ul>
+        <li>
+            <a href="../index.html">Kodu</a>
+        </li>
+        <li>
+            <a href="../tutvustus.html">Tutvustus</a>
+        </li>
+        <li>
+            <a href="../lingid.html">Kasulikud lingid</a>
+        </li>
+        <li>
+            <a href="../tood.html">Tehtud tööd</a>
+        </li>
+        <li>
+            <a href="../meedia.html">Meedia</a>
+        </li>
+    </ul>
+</nav>
+
+
+
 <h1>Map area kasutamine</h1>
 <img src="arvutipilt.jpg" alt="arvuti pilt" usemap="#arvuti">
 <map name="arvuti">
-    <area shape="circle" coords="121, 86, 40" href="https://www.transpordiamet.ee/teeilmajaamad-ja-kaamerad" alt="kaamera">
+    <area shape="circle" coords="121,86,40" href="https://www.transpordiamet.ee/teeilmajaamad-ja-kaamerad" alt="kaamera">
     <!-- circle coords=(x,y, R) -->
-    <area shape="rect" coords="199, 65, 546, 262" href="monitor.html" alt="monitor">
+    <area shape="rect" coords="199,65,546,262" href="monitor.html" alt="monitor">
     <!-- rect coords="x, y, x1, y2" -->
     <!-- kolmnurk - poly - tuleb võta kõik koordinadid vasakult parema -->
-    <area shape="poly" coords="508, 282, 487, 321, 548, 321" href="prygi.html" alt="">
+    <area shape="poly" coords="508,282,487,321,548,321" href="prygi.html" alt="">
     <!-- Ülesanne, Lisa kokku 5-6 pildiala, mis linkivad teisele failile sama sisuga -->
 </map>
 <div>palun tee klick hiirega pildi peal!</div>
 <h2>Tuleb klikida silmad ja kõrvad</h2>
 <img src="kass.jpg" alt="kass pilt" usemap="#kass">
 <map name="kass">
-    <area shape="circle" coords="258, 116, 25" href="https://en.wikipedia.org/wiki/Cat#Vision" alt="kasssilm">
-    <area shape="circle" coords="186, 113, 25" href="https://en.wikipedia.org/wiki/Cat#Vision" alt="kasssilm">
-    <area shape="poly" coords="308, 10, 305, 57, 271, 40" href="https://en.wikipedia.org/wiki/Cat#Hearing" alt="kasskõrvad">
-    <area shape="poly" coords="144, 6, 146, 53, 182, 37" href="https://en.wikipedia.org/wiki/Cat#Hearing" alt="kasskõrvad">
+    <area shape="circle" coords="258,116,25" href="https://en.wikipedia.org/wiki/Cat#Vision" alt="kasssilm">
+    <area shape="circle" coords="186,113,25" href="https://en.wikipedia.org/wiki/Cat#Vision" alt="kasssilm">
+    <area shape="poly" coords="308,10,305,57,271,40" href="https://en.wikipedia.org/wiki/Cat#Hearing" alt="kasskõrvad">
+    <area shape="poly" coords="144,6,146,53,182,37" href="https://en.wikipedia.org/wiki/Cat#Hearing" alt="kasskõrvad">
 </map>
-
+<h2 id="2">Tuleb klikida silmad, nokk, käpp, tiivad, suled peas, papagoi keha</h2>
+<img src="papagoi.jpg" alt="papagoi pilt" usemap="#papagoi">
+<map name="papagoi">
+    <area shape="circle" coords="334,200,19" href="papagoi/papagoiSilm.html" alt="silm">
+    <area shape="poly" coords="236,207,314,239,260,288" href="papagoi/papagoiNokk.html" alt="nokk">
+    <area shape="rect" coords="279,425,341,607" href="papagoi/papagoiTiivad.html" alt="tiivad">
+    <area shape="rect" coords="504,368,575,616" href="papagoi/papagoiTiivad.html" alt="tiivad">
+    <area shape="circle" coords="354,659,30" href="papagoi/papagoiKäpp.html" alt="käpp">
+    <area shape="circle" coords="518,657,30" href="papagoi/papagoiKäpp.html" alt="käpp">
+    <area shape="rect" coords="307,325,544,629" href="papagoi/papagoiRind.html" alt="keha">
+    <area shape="rect" coords="269,178,485,269" href="papagoi/papagoiSuled.html" alt="suled">
+</map>
 </body>
 </html>
