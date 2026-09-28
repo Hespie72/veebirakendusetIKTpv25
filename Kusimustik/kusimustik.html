@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Muusika küsimustik</title>
     <link rel="stylesheet" href="vormStyle.css">
+    <script src="../tood/javascript/kusimustikScript.js"></script>
 </head>
 <body>
 <h1>Muusika küsimustik</h1>
@@ -17,7 +18,10 @@
                 <label for="nimi">Nimi: </label>
             </td>
             <td>
-                <input type="text" id="nimi" placeholder="Vitalii" autofocus required>
+                <input type="text" id="nimi" placeholder="Vitalii" oninput="nimiLugemineKastist()">
+            </td>
+            <td>
+                <div id="vastus1"></div>
             </td>
         </tr>
         <tr>
@@ -27,7 +31,7 @@
                 <label for="stiil">Vali meeldivaim muusikastiil</label>
             </td>
             <td>
-                <select name="stiil" id="stiil">
+                <select name="stiil" id="stiil" onchange="selectValik()">
                     <option value="vali">vali...</option>
                     <option value="hiphop">hiphop</option>
                     <option value="kantri">kantri</option>
@@ -36,6 +40,9 @@
                     <option value="jazz">jazz</option>
                 </select>
             </td>
+            <td>
+                <div id="vastus5"></div>
+            </td>
         </tr>
         <tr>
             <td>
@@ -43,17 +50,20 @@
                     Kuidas sa muusikat peamiselt kuulad?
             </td>
             <td>
-                <input type="radio" name="platvorm" id="spotify">
+                <input type="radio" name="platvorm" id="spotify" value="spotify" onclick="radioValikud()">
                 <label for="spotify">Spotify</label>
                 <br>
-                <input type="radio" name="platvorm" id="soundcloud">
+                <input type="radio" name="platvorm" id="soundcloud" value="soundcloud" onclick="radioValikud()">
                 <label for="soundcloud">Soundcloud</label>
                 <br>
-                <input type="radio" name="platvorm" id="youtube">
+                <input type="radio" name="platvorm" id="youtube" value="youtube" onclick="radioValikud()">
                 <label for="youtube">YouTube</label>
                 <br>
-                <input type="radio" name="platvorm" id="raadio">
+                <input type="radio" name="platvorm" id="raadio" value="raadio" onclick="radioValikud()">
                 <label for="raadio">Raadio</label>
+            </td>
+            <td>
+                <div id="vastus2"></div>
             </td>
         </tr>
         <tr>
@@ -61,25 +71,28 @@
                 <!-- checkbox -->
                 <fieldset>
                     <legend>Tee oma valikud - lemmik ansambel</legend>
-                    <input type="checkbox" name="lemmikud" id="radiohead">
+                    <input type="checkbox" name="lemmikud" id="radiohead" value="radiohead" onchange="checkBoxValik()">
                     <label for="radiohead">Radiohead</label>
                     <br>
-                    <input type="checkbox" name="lemmikud" id="the-smashing-pumpkins">
+                    <input type="checkbox" name="lemmikud" id="the-smashing-pumpkins" value="the-smashing-pumpkins" onchange="checkBoxValik()">
                     <label for="the-smashing-pumpkins">The Smashing Pumpkins</label>
                     <br>
-                    <input type="checkbox" name="lemmikud" id="the-smiths">
+                    <input type="checkbox" name="lemmikud" id="the-smiths" value="the-smiths" onchange="checkBoxValik()">
                     <label for="the-smiths">The Smiths</label>
                     <br>
-                    <input type="checkbox" name="lemmikud" id="have-a-nice-life">
+                    <input type="checkbox" name="lemmikud" id="have-a-nice-life" value="have-a-nice-life" onchange="checkBoxValik()">
                     <label for="have-a-nice-life">Have A Nice Life</label>
                     <br>
-                    <input type="checkbox" name="lemmikud" id="slowdive">
+                    <input type="checkbox" name="lemmikud" id="slowdive" value="slowdive" onchange="checkBoxValik()">
                     <label for="slowdive">Slowdive</label>
                     <br>
-                    <input type="checkbox" name="lemmikud" id="muse">
+                    <input type="checkbox" name="lemmikud" id="muse" value="muse" onchange="checkBoxValik()">
                     <label for="muse">Muse</label>
                     <br>
                 </fieldset>
+            </td>
+            <td>
+                <div id="vastus3"></div>
             </td>
         </tr>
         <tr>
@@ -90,7 +103,10 @@
                 </label>
             </td>
             <td>
-                0<input type="range" id="tund" min="0" max="24" value="12">24
+                0<input type="range" id="tund" min="0" max="24" value="12" onchange="rangeValik()">24
+            </td>
+            <td>
+                <div id="vastus4"></div>
             </td>
         </tr>
         <tr>
@@ -132,6 +148,18 @@
                 saada vorm
             </td>
             <td><input type="submit" value="Submit"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="reset" value="Puhasta" onclick="puhasta()">
+            </td>
+
+            <td>
+                <input type="button" value="Näita/loe andmed" onclick="naitaKoike()">
+            </td>
+            <td>
+                <div id="vastusKoik"></div>
+            </td>
         </tr>
     </table>
 
