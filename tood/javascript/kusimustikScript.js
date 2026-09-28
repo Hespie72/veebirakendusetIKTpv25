@@ -90,6 +90,43 @@ function selectValik(){
     }
     return stiil.value;
 }
+function arvamusLugemine(){
+    let vastus6 = document.getElementById("vastus6");
+    let arvamus=document.getElementById("arvamus");
+
+    vastus6.innerHTML="Teie arvamus on: " +arvamus.value;
+    vastus6.style.backgroundColor="lightgreen";
+
+    return arvamus.value;
+}
+function radiovalik1(){
+    let vastus7 = document.getElementById("vastus7");
+    let jah=document.getElementById("jah");
+    let ei=document.getElementById("ei");
+
+    let valik1="";
+    if(jah.checked){
+        valik1+=jah.value;
+    } else if(ei.checked){
+        valik1+=ei.value;
+    } else{
+        valik1="palun tee oma valik";
+    }
+    vastus7.innerHTML="Valik: "+valik1;
+    vastus7.style.backgroundColor="lightgreen";
+    return valik1;
+
+}
+
+function raadiojaama(){
+    let vastus8 = document.getElementById("vastus8");
+    let raadiojaam=document.getElementById("raadiojaam");
+
+    vastus8.innerHTML="Raadiojaam: "+raadiojaam.value;
+    vastus8.style.backgroundColor="lightgreen";
+
+    return raadiojaam.value;
+}
 
 //kasuta teisi funktsioone
 function naitaKoike(){
@@ -99,11 +136,16 @@ function naitaKoike(){
     let valik2=checkBoxValik();
     let tund=rangeValik();
     let stiil=selectValik();
+    let arvamus=arvamusLugemine();
+    let valik1=radiovalik1();
+    let raadiojaam=raadiojaama();
 
-    vastusKoik.innerHTML="Sinu nimi on: "+nimi+'<br>'+
+    vastusKoik.innerHTML="Sinu nimi on: "+nimi+',<br>'+
         'Sinu lemmikud on: ' + valik2 + '<br>'+
-        'Sa kasutad '+valik+'<br>'+'Sa kuuled '+tund+'tundi<br>'+
-        'Sa valisid'+stiil;
+        'Sa kasutad: '+valik+',<br>'+'Sa kuuled: '+tund+' tundi,<br>'+
+        'Sa valisid: '+stiil+',<br>'+'Teie arvamus on: '+arvamus+',<br>'+
+        'Kas sa kuulad raadiot? '+valik1+',<br>'+
+        'raadiojaam: '+raadiojaam+'<br>';
 }
 function puhasta(){
     vastus1.innerHTML="";

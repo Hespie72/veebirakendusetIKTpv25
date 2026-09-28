@@ -27,5 +27,7 @@ input[type=radio]:hover{
 input[type=checkbox]+label{
     background-color: lightblue;
     font-weight: bold;
-
+}
+table, td:nth-child(3){
+    width: 100%;
 }

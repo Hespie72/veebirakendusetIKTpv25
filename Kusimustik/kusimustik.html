@@ -110,8 +110,40 @@
             </td>
         </tr>
         <tr>
-            <td> Input type=color, file, email, jne kokku 5-6tk</td>
-            <td>w3schools.com</td>
+            <td>
+                <label for="arvamus">Mida arvad muusika kuulamisest koolis?</label>
+            </td>
+            <td>
+                <textarea name="arvamus" id="arvamus" cols="30" rows="10" oninput="arvamusLugemine()"></textarea>
+            </td>
+            <td>
+                <div id="vastus6"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Kas sa kuulad raadiot?</label>
+            </td>
+            <td>
+                <input type="radio" name="radiovalik" id="jah" value="jah" onclick="radiovalik1()">
+                <label for="jah">Jah</label>
+                <input type="radio" name="radiovalik" id="ei" value="ei" onclick="radiovalik1()">
+                <label for="ei">Ei</label>
+            </td>
+            <td>
+                <div id="vastus7"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="raadiojaam">Milliseid raadiojaamu oskad nimetada?</label>
+            </td>
+            <td>
+                <input type="text" name="raadiojaam" id="raadiojaam" placeholder="sky raadio" oninput="raadiojaama()">
+            </td>
+            <td>
+                <div id="vastus8"></div>
+            </td>
         </tr>
         <tr>
             <td>
