@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Ülesanne Kusimustik</title>
+  <script src="javascript/ulesanneKusimustikJS.js"></script>
+  <link rel="stylesheet" href="ulesanneKusimustikStyle.css">
+</head>
+<body>
+<table>
+<tr>
+  <td>
+    Milliseid programmeerimiskeeli sa tead?
+  </td>
+  <td>
+    <fieldset>
+      <input type="checkbox" name="programm" id="JS" value="javaScript" onchange="valiCheckbox()">
+      <label for="JS">JavaScript</label>
+      <br>
+      <input type="checkbox" name="programm" id="Python" value="python" onchange="valiCheckbox()">
+      <label for="Python">Python</label>
+      <br>
+      <input type="checkbox" name="programm" id="csharp" value="csharp" onchange="valiCheckbox()">
+      <label for="csharp">C#</label>
+      <br>
+      <input type="checkbox" name="programm" id="PHP" value="PHP" onchange="valiCheckbox()">
+      <label for="PHP">PHP</label>
+    </fieldset>
+  </td>
+  <td>
+    <div id="vastus1"></div>
+  </td>
+</tr>
+<tr>
+  <td>
+  <label for="arvad">Mida arvad programmeerimise õppimisest?</label>
+  </td>
+  <td>
+    <textarea name="arvad" id="arvad" cols="30" rows="10" oninput="textareaAndme()"></textarea>
+  </td>
+  <td>
+    <div id="vastus2"></div>
+  </td>
+</tr>
+  <tr>
+    <td>
+      <label for="tund">
+        Mitu tundi nädalas tegeled programmeerimisega?
+      </label>
+    </td>
+    <td>
+      0<input type="range" id="tund" min="0" max="168" value="84" onchange="rangeValik()">168
+    </td>
+    <td>
+      <div id="vastus3"></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label>Kas sulle meeldib programmeerida?</label>
+    </td>
+    <td>
+      <input type="radio" name="radiovalik" id="jah" value="jah" onclick="radioValik1()">
+      <label for="jah">Jah</label>
+      <br>
+      <input type="radio" name="radiovalik" id="ei" value="ei" onclick="radioValik1()">
+      <label for="ei">Ei</label>
+      <br>
+      <img src="pilti/lill.png" alt="" id="valitudPilt">
+    </td>
+    <td>
+      <div id="vastus4"></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label for="toorist">Milliseid programmeerimisega seotud tööriistu oskad nimetada?</label>
+    </td>
+    <td>
+      <input type="text" id="toorist" placeholder="Näiteks: Visual Studio Code, GitHub, PhpStorm jne." oninput="tooristText()">
+    </td>
+    <td>
+      <div id="vastus5"></div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <fieldset>
+        <legend>Millist programmeerimiskeelt sooviksid kõige rohkem õppida?</legend>
+        <input type="checkbox" name="programm1" id="J" value="java" onchange="valiCheckbox1()">
+        <label for="J">Java</label>
+        <br>
+        <input type="checkbox" name="programm1" id="Python1" value="python" onchange="valiCheckbox1()">
+        <label for="Python1">Python</label>
+        <br>
+        <input type="checkbox" name="programm1" id="csharp1" value="csharp" onchange="valiCheckbox1()">
+        <label for="csharp1">C#</label>
+        <br>
+        <input type="checkbox" name="programm1" id="PHP1" value="PHP" onchange="valiCheckbox1()">
+        <label for="PHP1">PHP</label>
+        <br>
+        <input type="checkbox" name="programm1" id="Cpp" value="C++" onchange="valiCheckbox1()">
+        <label for="Cpp">C++</label>
+        <br>
+        <input type="checkbox" name="programm1" id="HTML" value="HTML" onchange="valiCheckbox1()">
+        <label for="HTML">HTML</label>
+      </fieldset>
+    </td>
+    <td>
+      <div id="vastus6"></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="reset" value="Puhasta" onclick="puhasta()">
+    </td>
+    <td>
+      <input type="button" value="saada" onclick="naitaKoike()">
+    </td>
+    <td>
+      <div id="vastusKoik"></div>
+    </td>
+  </tr>
+
+</table>
+
+
+</body>
+</html>
