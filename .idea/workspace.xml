@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="Paberi Ulesanne">
-      <change afterPath="$PROJECT_DIR$/tood/papagoi/PapagoiMain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/javascript/piltScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/pilti/kurb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/pilti/lill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/pilti/neutral.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/pilti/piltideVahetus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/pilti/piltideVahetusStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/pilti/smile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/maparea.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/maparea.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/papagoi/PapagoiStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/tood/papagoi/PapagoiStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/papagoi/papagoiKäpp.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/papagoi/papagoiKäpp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/papagoi/papagoiNokk.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/papagoi/papagoiNokk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/papagoi/papagoiRind.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/papagoi/papagoiRind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/papagoi/papagoiSilm.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/papagoi/papagoiSilm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/papagoi/papagoiSuled.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/papagoi/papagoiSuled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/papagoi/papagoiTiivad.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/papagoi/papagoiTiivad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kusimustik/kusimustik.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kusimustik/kusimustik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kusimustik/vormStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kusimustik/vormStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tood/javascript/kusimustikScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/tood/javascript/kusimustikScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +26,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,12 +42,12 @@
   }
 }</component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="327ea0e3-136c-46d8-acea-83c0a500678d" />
+    <option name="defaultAccountId" value="4cf45b26-af38-464b-9cce-bfeece8a1bd0" />
   </component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "git@github.com:/Hespie72/veebirakendusetIKTpv25.git",
-    "accountId": "327ea0e3-136c-46d8-acea-83c0a500678d"
+    "url": "https://github.com/Hespie72/veebirakendusetIKTpv25.git",
+    "accountId": "4cf45b26-af38-464b-9cce-bfeece8a1bd0"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -64,6 +65,7 @@
     "JavaScript Debug.kusimustik.html.executor": "Run",
     "JavaScript Debug.maparea.html.executor": "Run",
     "JavaScript Debug.paberiulesanne.html.executor": "Run",
+    "JavaScript Debug.piltideVahetus.html.executor": "Run",
     "JavaScript Debug.tabelid.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -87,6 +89,9 @@
       <recent name="C:\Users\opilane\Desktop\veebirakendusetIKTpv25\tood\papagoi" />
       <recent name="C:\Users\opilane\Desktop\veebirakenduset\tood" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\opilane\Desktop\veebirakendusetIKTpv25\tood\pilti" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -109,6 +114,7 @@
       <workItem from="1789984085322" duration="7290000" />
       <workItem from="1789991773467" duration="8075000" />
       <workItem from="1790589062253" duration="16546000" />
+      <workItem from="1791193774848" duration="7408000" />
     </task>
     <task id="LOCAL−00001" summary="lisa map area">
       <option name="closed" value="true" />

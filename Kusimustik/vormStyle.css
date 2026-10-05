@@ -31,3 +31,8 @@ input[type=checkbox]+label{
 table, td:nth-child(3){
     width: 100%;
 }
+
+img#valitudPilt{
+    width: 100px;
+    height: 100px;
+}

@@ -8,30 +8,29 @@ function nimiLugemineKastist(){
     return nimi.value;
 }
 //radio valikud
-function radioValikud(){
+function radioValikud() {
     let vastus2 = document.getElementById("vastus2");
-    let spotify = document.getElementById("spotify");
-    let soundcloud = document.getElementById("soundcloud");
-    let youtube  = document.getElementById("youtube");
-    let raadio  = document.getElementById("raadio");
+    let platvorm = document.getElementsByName("platvorm");
+    let valitudPilt = document.getElementById("valitudPilt");
 
-    let valik=""
-    if(spotify.checked){
-        valik=spotify.value;
-    }else if(soundcloud.checked){
-        valik=soundcloud.value;
-    } else if(youtube.checked){
-        valik=youtube.value;
-    } else if(raadio.checked){
-        valik=raadio.value;
-    } else{
-        valik="palun tee oma valik";
+    let valik = "";
+
+    for (let i = 0; i < platvorm.length; i++) {
+        if (platvorm[i].checked) {
+            valik = platvorm[i].value;
+            valitudPilt.src = platvorm[i].dataset.pilt;
+            break;
+        }
     }
-//vastus
-    vastus2.innerHTML="Valik: "+valik;
-    vastus2.style.backgroundColor="lightgreen";
 
-    return valik;
+    if (valik == "") {
+        vastus2.innerHTML = "Palun tee oma valik!";
+        vastus2.style.backgroundColor = "lightcoral";
+    } else {
+        vastus2.innerHTML = "Valik: " + valik;
+        vastus2.style.backgroundColor = "lightgreen";
+        return;
+    }
 }
 //checkbox
 function checkBoxValik(){
