@@ -24,4 +24,23 @@ let autod = [
     { mark: 'Tesla', mudel: 'Model 3', aasta: 2019 }
 ];
 
+//Lisab uue objekti massiivi lõppu
+autod.push({ mark: 'BMW', mudel: '320i', aasta: 2015 });
+autod.unshift({ mark: 'Ford', mudel: 'Focus', aasta: 2020 });
+
+
+autod.forEach((auto) => {
+    console.log(`
+    Mark: ${auto.mark},
+    Mudel: ${auto.mudel},
+    Aasta: ${auto.aasta}
+    `);
+});
+
+
+
 console.log(autod);
+
+console.log(autod[0]);
+
+console.log(autod[0].mark);

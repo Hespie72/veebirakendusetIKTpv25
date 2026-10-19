@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="Paberi Ulesanne">
-      <change afterPath="$PROJECT_DIR$/Kusimustik/kuupaevFunktsiionid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/autodObjekt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/javascript/autodScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/javascript/kuupaevScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/javascript/raamatukoguScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tood/raamatukogu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="Lisamine midagi uus">
+      <change beforePath="$PROJECT_DIR$/tood/javascript/autodScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/tood/javascript/autodScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +107,7 @@
       <workItem from="1789991773467" duration="8075000" />
       <workItem from="1790589062253" duration="16546000" />
       <workItem from="1791193774848" duration="16316000" />
-      <workItem from="1792403684204" duration="10347000" />
+      <workItem from="1792403684204" duration="10657000" />
     </task>
     <task id="LOCAL−00001" summary="lisa map area">
       <option name="closed" value="true" />
@@ -150,7 +144,14 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1790605079252</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Lisamine midagi uus">
+      <option name="closed" value="true" />
+      <created>1792420324639</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1792420324639</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +172,7 @@
     <MESSAGE value="lisa map area" />
     <MESSAGE value="lisa map area ja küsimustlik" />
     <MESSAGE value="Paberi Ulesanne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paberi Ulesanne" />
+    <MESSAGE value="Lisamine midagi uus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lisamine midagi uus" />
   </component>
 </project>
