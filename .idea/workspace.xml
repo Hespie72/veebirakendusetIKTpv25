@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="Lisamine midagi uus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/raamatukogu.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood/raamatukogu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tood/javascript/raamatukoguScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/tood/javascript/raamatukoguScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -110,7 +111,7 @@
       <workItem from="1790589062253" duration="16546000" />
       <workItem from="1791193774848" duration="16316000" />
       <workItem from="1792403684204" duration="10657000" />
-      <workItem from="1793018799293" duration="1786000" />
+      <workItem from="1793018799293" duration="3414000" />
     </task>
     <task id="LOCAL−00001" summary="lisa map area">
       <option name="closed" value="true" />
@@ -154,7 +155,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1792420324639</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Lisamine midagi uus">
+      <option name="closed" value="true" />
+      <created>1793020825590</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1793020825590</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

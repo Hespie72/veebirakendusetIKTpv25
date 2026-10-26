@@ -12,7 +12,8 @@ let raamat = {
     }
 };
 
-console.log("1. Raamatu kirjeldus: "+ raamat.kirjeldus());
+let algneKirjeldus = raamat.kirjeldus();
+console.log("1. Raamatu kirjeldus: " + algneKirjeldus);
 
 raamat.muudaAastat(2001);
 console.log("2. Muudetud raamat: "+raamat.kirjeldus());
@@ -81,44 +82,37 @@ console.log(raamatukogu.arvutaUuedRaamatud());
 console.log("6. Kõige vanem raamat:");
 console.log(raamatukogu.leiaVanemRaamat());
 
-// 3. Kuvame tulemused HTML-lehel
-const tulemused = document.getElementById("tulemused");
+// Kuvame tulemused HTML-lehel
+let html = "<h2>1. Raamatu kirjeldus</h2>";
+html += "<p>" + algneKirjeldus + "</p>";
 
-function lisaPealkiri(tekst) {
-    const pealkiri = document.createElement("h2");
-    pealkiri.textContent = tekst;
-    tulemused.appendChild(pealkiri);
-}
+html += "<h2>2. Muudetud raamat</h2>";
+html += "<p>" + raamat.kirjeldus() + "</p>";
 
-function lisaTekst(tekst) {
-    const element = document.createElement("p");
-    element.textContent = tekst;
-    tulemused.appendChild(element);
-}
-
-lisaPealkiri("Raamatu kirjeldus");
-lisaTekst(raamat.kirjeldus());
-
-lisaPealkiri("Kõik raamatud");
+html += "<h2>3. Kõik raamatud</h2>";
 
 raamatukogu.raamatud.forEach((raamat, indeks) => {
-    const kaart = document.createElement("div");
-    kaart.className = "raamat";
-    kaart.textContent =
-        (indeks + 1) + ". " + raamat.pealkiri +
-        " – " + raamat.autor +
-        ", " + raamat.aasta;
-
-    tulemused.appendChild(kaart);
+    html += "<p>" + (indeks + 1) + ". " + raamat.pealkiri + " – " + raamat.autor + " (" + raamat.aasta + ")</p>";
 });
 
-lisaPealkiri("Raamatukogu statistika");
-lisaTekst("Raamatute koguarv: " +
-    raamatukogu.koguArv());
+html += "<h2>4. Raamatute koguarv</h2>";
+html += "<p>" + raamatukogu.koguArv() + "</p>";
 
-lisaTekst("Pärast 2000. aastat ilmunud raamatuid: " +
-    raamatukogu.arvutaUuedRaamatud());
+html += "<h2>5. Pärast 2000. aastat ilmunud raamatuid</h2>";
+html += "<p>" + raamatukogu.arvutaUuedRaamatud() + "</p>";
 
-const vanem = raamatukogu.leiaVanemRaamat();
-lisaTekst("Kõige vanem raamat: " +
-    vanem.pealkiri + " (" + vanem.aasta + ")");
+let vanem = raamatukogu.leiaVanemRaamat();
+
+html += "<h2>6. Kõige vanem raamat</h2>";
+html += "<p>" + vanem.pealkiri + " – " +
+    vanem.autor + " (" + vanem.aasta + ")</p>";
+
+let selgitus = "Meetod leiaVanemRaamat() leiab raamatukogust " +
+    "kõige varasema ilmumisaastaga raamatu.";
+
+html += "<h2>Oma meetodi selgitus</h2>";
+html += "<p>" + selgitus + "</p>";
+
+console.log(selgitus);
+
+document.getElementById("tulemused").innerHTML = html;
