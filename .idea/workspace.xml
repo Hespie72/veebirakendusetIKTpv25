@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="Lisamine midagi uus">
+      <change afterPath="$PROJECT_DIR$/tood/joonis/canvasJoonistamine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/joonis/canvasScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tood/joonis/canvasStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/javascript/raamatukoguScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/tood/javascript/raamatukoguScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -35,8 +37,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Hespie72/veebirakendusetIKTpv25.git",
-    "accountId": "3e1c05c0-0584-493f-a163-d8befb55e7b1"
+    "url": "git@github.com:/Hespie72/veebirakendusetIKTpv25.git",
+    "accountId": "3e2ecd4d-cf40-49db-961b-9a9dd49eabf2"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -51,6 +53,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.autodObjekt.html.executor": "Run",
+    "JavaScript Debug.canvasJoonistamine.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.kusimustik.html.executor": "Run",
     "JavaScript Debug.kuupaevFunktsiionid.html.executor": "Run",
@@ -85,6 +88,7 @@
       <recent name="C:\Users\opilane\Desktop\veebirakenduset\tood" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\opilane\Desktop\veebirakendusetIKTpv25\tood\joonis" />
       <recent name="C:\Users\opilane\Desktop\veebirakendusetIKTpv25\tood\pilti" />
     </key>
   </component>
@@ -112,6 +116,7 @@
       <workItem from="1791193774848" duration="16316000" />
       <workItem from="1792403684204" duration="10657000" />
       <workItem from="1793018799293" duration="3414000" />
+      <workItem from="1794228061375" duration="8912000" />
     </task>
     <task id="LOCAL−00001" summary="lisa map area">
       <option name="closed" value="true" />
