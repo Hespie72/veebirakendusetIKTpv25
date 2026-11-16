@@ -1,12 +1,55 @@
 <!DOCTYPE html> <!--deklareerime HTMLS keel-->
 <html lang="et">
 <head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.min.js"
+            integrity="sha256-mblSWfbYzaq/f+4akyMhE6XELCou4jbkgPv+JQPER2M="
+            crossorigin="anonymous"></script>
     <!--veebilehe tehnilene info-->
     <meta charset="UTF-8">
     <title>Vitalii veebirakenduste aluste tööd</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        $(document).ready(function(){
+            $('#kuva').hide();
+            //nupu peida vajutamine
+            $('#peida').click(function(){
+                $('#kast1, #kast2').hide(500);
+                $(this).hide();
+                $('#kuva').show();
+            })
+            //nupu peida vajutamine
+            $('#kuva').click(function(){
+                $('#kast1, #kast2').show(500);
+                $(this).hide();
+                $('#peida').show();
+            })
+            $('#raputa').click(function(){
+                $('#kast1, #kast2').effect("shake", {times: 3, distance: 10}, 500);
+                $('#kast1').css("background-color", "purple");
+                $('#kast2').css("background-color", "pink");
+            });
+        })
+
+        function start() {
+            $('#kast1').draggable();
+            $('#kast2').draggable();
+            $('#kast3').draggable();
+            $('#kast1').bind("drag", xyKoordinat);
+            $('#kast2').bind("drag", xyKoordinat);
+            $('#kast3').bind("drag", xyKoordinat);
+        }
+        function xyKoordinat(event, ui){
+            let koht = ui.offset;
+            $('#vastus').html('x: '+koht.left+ '//// y: '+koht.top);
+        }
+    </script>
+
+
 </head>
-<body>
+<body  onload="start()">
 <!--veebilehe sisu-->
 <!--päis-->
 <header>
@@ -15,7 +58,7 @@
     </h1>
 </header>
 <!--nävigeerimismenüü-->
-<nav>
+<nav id="kast3">
     <ul>
         <li>
             <a href="index.html">Kodu</a>
@@ -43,10 +86,35 @@
     <section id="kast2">
         <h2>Põnev pilt</h2>
         <div>
-            <img src="pilt.png" alt="see on ise tehtud pilt">
+            <img src="pilt.png"  alt="see on ise tehtud pilt">
         </div>
     </section>
+    <div id="vastus"></div>
+    <input type="button" value="--->" id="paremale"
+           onclick="$('#kast1, #kast2').animate({left: '500px'}, 1000);
+  $(this).hide();
+  $('#vasakule').show();
+  ">
+    <input type="button" value="<---" id="vasakule" style="display: none;"
+           onclick="$('#kast1, #kast2').animate({left: '0px'}, 1000)
+  $(this).hide();
+  $('#paremale').show();
+  ">
+    <input type="button" value="v" id="alla"
+           onclick="$('#kast1, #kast2').animate({top: '500px'}, 1000)
+  $(this).hide();
+  $('#üllevale').show();
+  ">
+    <input type="button" value="^" id="üllevale" style="display: none;"
+           onclick="$('#kast1, #kast2').animate({top: '0px'}, 1000)
+  $(this).hide();
+  $('#alla').show();
+  ">
+    <input type="button" value="Peida" id="peida">
+    <input type="button" value="Kuva" id="kuva">
+    <input type="button" value="Raputa ja värvi" id="raputa">
 </main>
+
 <!--jalus-->
 <footer>
     Vitalii leht &copy; 2026

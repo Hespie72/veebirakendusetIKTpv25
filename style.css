@@ -17,9 +17,12 @@ header h1{
     border-bottom: 3px dashed royalblue;
 }
 header {
+    position: relative;
     background-color: black; /*floralwhite tausta värv*/
-    background-image: url("pilt.png");
     background-repeat: no-repeat;
+    width: 100%;
+    top: 0;
+    height: 180px;
 }
 footer{
     width: 100%;
@@ -37,6 +40,8 @@ section#kast1{
     border-radius: 120px 10px 120px 10px;
     text-align: center;
     background-color: rgba(65, 105, 225, 0.5);
+    position: relative;
+    left: 0px;
 }
 section#kast2{
     border: 2px dotted dodgerblue; /*solid, double, dashed, dotted*/
@@ -46,6 +51,8 @@ section#kast2{
     border-radius: 100px 100px 100px 100px;
     text-align: center;
     background-color: rgba(65, 105, 225, 0.5);
+    position: relative;
+    left: 0px;
 }
 /*--NAV--*/
 nav ul{

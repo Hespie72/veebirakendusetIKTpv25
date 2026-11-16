@@ -35,7 +35,7 @@
   }
   function xyKoordinat(event, ui){
     let koht = ui.offset;
-    $('#vastus').html('x: '+ koht.x + 'px, y: ' + koht.y + 'px');
+    $('#vastus').html('x: '+koht.left+ '//// y: '+koht.top);
   }
 </script>
 
@@ -44,6 +44,7 @@
 <section>
   <img src="../3F3F3F3F3F283F3F3F3F%2029.jpg" alt="" id="pilt" onload="start()">
 </section>
+<div id="vastus"></div>
 <header>
   <h1>jQuery kasutamine</h1>
 </header>
