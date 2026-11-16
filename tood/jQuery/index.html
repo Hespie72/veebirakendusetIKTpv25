@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery kasutamine</title>
+  <link rel="stylesheet" href="jQueryStyle.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.min.js"
+          integrity="sha256-mblSWfbYzaq/f+4akyMhE6XELCou4jbkgPv+JQPER2M="
+          crossOrigin="anonymous"></script>
+  <script>
+  $(document).ready(function(){
+  $('#kuva').hide();
+  //nupu peida vajutamine
+  $('#peida').click(function(){
+  $('#sisu').hide(500);
+  $(this).hide();
+    $('#kuva').show();
+  })
+    //nupu peida vajutamine
+    $('#kuva').click(function(){
+      $('#sisu').show(500);
+      $(this).hide();
+      $('#peida').show();
+    })
+  })
+  function start(){
+    $('#sisu').draggable();
+    $('#pilt').draggable();
+    $('#sisu').bind('drag', xyKoordinat);
+    $('#pilt').bind('drag', xyKoordinat);
+  }
+  function xyKoordinat(event, ui){
+    let koht = ui.offset;
+    $('#vastus').html('x: '+ koht.x + 'px, y: ' + koht.y + 'px');
+  }
+</script>
+
+</head>
+<body>
+<section>
+  <img src="../3F3F3F3F3F283F3F3F3F%2029.jpg" alt="" id="pilt" onload="start()">
+</section>
+<header>
+  <h1>jQuery kasutamine</h1>
+</header>
+<main>
+  <input type="button" value="--->" id="paremale"
+  onclick="$('#sisu, h2').animate({left: '500px'}, 1000);
+  $(this).hide();
+  $('#vasakule').show();
+  ">
+  <input type="button" value="<---" id="vasakule" style="display: none;"
+         onclick="$('#sisu, h2').animate({left: '0px'}, 1000)
+  $(this).hide();
+  $('#paremale').show();
+  ">
+  <input type="button" value="v" id="alla"
+         onclick="$('#sisu, h2').animate({top: '500px'}, 1000)
+  $(this).hide();
+  $('#üllevale').show();
+  ">
+  <input type="button" value="^" id="üllevale" style="display: none;"
+         onclick="$('#sisu, h2').animate({top: '0px'}, 1000)
+  $(this).hide();
+  $('#alla').show();
+  ">
+  <input type="button" value="Peida" id="peida">
+  <input type="button" value="Kuva" id="kuva">
+
+
+
+  <section>
+    <h2>JQuery File upload</h2>
+    <div id="sisu">
+      File Upload widget with multiple file selection, drag&drop support, progress bars and preview images for jQuery. Supports cross-domain, chunked and resumable file uploads and client-side image resizing. Works with any server-side platform (PHP, Python, Ruby on Rails, Java, Node.js, Go etc.) that supports standard HTML form file uploads.
+    </div>
+  </section>
+</main>
+
+
+</body>
+</html>

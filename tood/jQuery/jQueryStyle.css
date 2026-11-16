@@ -1,0 +1,18 @@
+#sisu{
+    position: relative;
+    left: 0;
+    width: 200px;
+    border: solid 1px blue;
+}
+h2{
+    position: relative;
+    left: 0px;
+}
+#paremale, #vasakule {
+    position: relative;
+    left: 0px;
+}
+#pilt{
+    position: absolute;
+    left: 600px;
+}
