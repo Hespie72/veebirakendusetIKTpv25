@@ -1,138 +1,221 @@
-<!DOCTYPE html> <!--deklareerime HTMLS keel-->
+<!DOCTYPE html>
 <html lang="et">
 <head>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-            crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.min.js"
-            integrity="sha256-mblSWfbYzaq/f+4akyMhE6XELCou4jbkgPv+JQPER2M="
-            crossorigin="anonymous"></script>
-    <!--veebilehe tehnilene info-->
     <meta charset="UTF-8">
     <title>Vitalii veebirakenduste aluste tööd</title>
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.min.js"
+            integrity="sha256-mblSWfbYzaq/f+4akyMhE6XELCou4jbkgPv+JQPER2M="
+            crossorigin="anonymous"></script>
+
+    <style>
+        /* Vihjemulli kujundus */
+        #vihje {
+            position: absolute;
+            z-index: 9999;
+            max-width: 250px;
+            padding: 10px 15px;
+            background-color: royalblue;
+            color: white;
+            border: 1px solid deepskyblue;
+            border-radius: 8px;
+            font-size: 14px;
+            pointer-events: none;
+            display: none;
+        }
+    </style>
+
     <script>
-        $(document).ready(function(){
+        $(function () {
+            // Vihjemullid
+            $('.vihjemull').mouseover(function (e) {
+                let mull = $(this).attr('title');
+
+                $(this).data('vihjeTekst', mull);
+                $(this).removeAttr('title');
+
+                $('#vihje').remove();
+
+                $('<div id="vihje"></div>')
+                    .text(mull)
+                    .appendTo('body')
+                    .css({
+                        top: e.pageY + 10,
+                        left: e.pageX + 20
+                    })
+                    .fadeTo(200, 0.9);
+
+            }).mousemove(function (e) {
+                $('#vihje').css({
+                    top: e.pageY + 10,
+                    left: e.pageX + 20
+                });
+
+            }).mouseout(function () {
+                $(this).attr('title', $(this).data('vihjeTekst'));
+                $('#vihje').remove();
+            });
+
+            // Peida ja kuva
             $('#kuva').hide();
-            //nupu peida vajutamine
-            $('#peida').click(function(){
+
+            $('#peida').click(function () {
                 $('#kast1, #kast2').hide(500);
                 $(this).hide();
                 $('#kuva').show();
-            })
-            //nupu peida vajutamine
-            $('#kuva').click(function(){
+            });
+
+            $('#kuva').click(function () {
                 $('#kast1, #kast2').show(500);
                 $(this).hide();
                 $('#peida').show();
-            })
-            $('#raputa').click(function(){
-                $('#kast1, #kast2').effect("shake", {times: 3, distance: 10}, 500);
-                $('#kast1').css("background-color", "purple");
-                $('#kast2').css("background-color", "pink");
             });
-        })
+
+            // Raputa ja värvi
+            $('#raputa').click(function () {
+                $('#kast1, #kast2').effect(
+                    'shake',
+                    { times: 3, distance: 10 },
+                    500
+                );
+
+                $('#kast1').css('background-color', 'purple');
+                $('#kast2').css('background-color', 'pink');
+            });
+        });
 
         function start() {
-            $('#kast1').draggable();
-            $('#kast2').draggable();
-            $('#kast1').bind("drag", xyKoordinat);
-            $('#kast2').bind("drag", xyKoordinat);
+            $('#kast1, #kast2').draggable({
+                drag: xyKoordinat
+            });
         }
-        function xyKoordinat(event, ui){
+
+        function xyKoordinat(event, ui) {
             let koht = ui.offset;
-            $('#vastus').html('x: '+koht.left+ '//// y: '+koht.top);
+
+            $('#vastus').text(
+                'x: ' + koht.left + ' //// y: ' + koht.top
+            );
         }
     </script>
-
-
 </head>
-<body  onload="start()">
-<!--veebilehe sisu-->
-<!--päis-->
+
+<body onload="start()">
 <header>
-    <h1>
-        Vitalii veebirakenduste aluste tööd
-    </h1>
+    <h1>Vitalii veebirakenduste aluste tööd</h1>
 </header>
-<!--nävigeerimismenüü-->
+
 <nav>
     <ul>
         <li>
-            <a href="index.html">Kodu</a>
+            <a href="index.html"
+               class="vihjemull"
+               title="Siin asub veebilehe avaleht.">
+                Kodu
+            </a>
         </li>
         <li>
-            <a href="tutvustus.html">Tutvustus</a>
+            <a href="tutvustus.html"
+               class="vihjemull"
+               title="Siit saad minu kohta rohkem teada.">
+                Tutvustus
+            </a>
         </li>
-        <li><a href="lingid.html">Kasulikud lingid</a></li>
-        <li><a href="tood.html">Tehtud tööd</a></li>
         <li>
-            <a href="meedia.html">Meedia</a>
+            <a href="lingid.html"
+               class="vihjemull"
+               title="Siit leiad õppimiseks kasulikke linke.">
+                Kasulikud lingid
+            </a>
+        </li>
+        <li>
+            <a href="tood.html"
+               class="vihjemull"
+               title="Siin on minu veebirakenduste tundides tehtud tööd.">
+                Tehtud tööd
+            </a>
+        </li>
+        <li>
+            <a href="meedia.html"
+               class="vihjemull"
+               title="Siit leiad pilte, videoid ja muusikat.">
+                Meedia
+            </a>
         </li>
     </ul>
 </nav>
-<!--põhisisu-->
+
 <main>
     <section id="kast1">
-        <h2>
-            Tere tulemast
-        </h2>
-        <p>See on index leht mis on tehtus 1.veebirakenduste tunnis!
-        Palun vajuta teise lingi peale ning kontrolli et sisu
+        <h2>Tere tulemast</h2>
+        <p>
+            See on index leht mis on tehtus 1.veebirakenduste tunnis!
+            Palun vajuta teise lingi peale ning kontrolli et sisu
         </p>
     </section>
+
     <section id="kast2">
         <h2>Põnev pilt</h2>
         <div>
-            <img src="pilt.png"  alt="see on ise tehtud pilt">
+            <img src="pilt.png"
+                 alt="see on ise tehtud pilt"
+                 class="pilt">
         </div>
     </section>
+
     <div id="vastus"></div>
-    <input type="button" value="--->" id="paremale"
-           onclick="$('#kast1, #kast2').animate({left: '500px'}, 1000);
-  $(this).hide();
-  $('#vasakule').show();
-  ">
-    <input type="button" value="<---" id="vasakule" style="display: none;"
-           onclick="$('#kast1, #kast2').animate({left: '0px'}, 1000)
-  $(this).hide();
-  $('#paremale').show();
-  ">
+
+    <input type="button" value="---&gt;" id="paremale"
+           onclick="
+               $('#kast1, #kast2').animate({left: '500px'}, 1000);
+               $(this).hide();
+               $('#vasakule').show();
+           ">
+
+    <input type="button" value="&lt;---" id="vasakule"
+           style="display: none;"
+           onclick="
+               $('#kast1, #kast2').animate({left: '0px'}, 1000);
+               $(this).hide();
+               $('#paremale').show();
+           ">
+
     <input type="button" value="v" id="alla"
-           onclick="$('#kast1, #kast2').animate({top: '500px'}, 1000)
-  $(this).hide();
-  $('#üllevale').show();
-  ">
-    <input type="button" value="^" id="üllevale" style="display: none;"
-           onclick="$('#kast1, #kast2').animate({top: '0px'}, 1000)
-  $(this).hide();
-  $('#alla').show();
-  ">
+           onclick="
+               $('#kast1, #kast2').animate({top: '500px'}, 1000);
+               $(this).hide();
+               $('#üllevale').show();
+           ">
+
+    <input type="button" value="^" id="üllevale"
+           style="display: none;"
+           onclick="
+               $('#kast1, #kast2').animate({top: '0px'}, 1000);
+               $(this).hide();
+               $('#alla').show();
+           ">
+
     <input type="button" value="Peida" id="peida">
     <input type="button" value="Kuva" id="kuva">
     <input type="button" value="Raputa ja värvi" id="raputa">
+
     <section id="list1">
         <ul>
-            <li>
-                 liigutatav(draggable)
-            </li>
-            <li>
-                 kolima(animate left või right)
-            </li>
-            <li>
-                 Raputa ja värvi(shake; background-color)
-            </li>
-            <li>
-                 Peida (hide)
-            </li>
+            <li>liigutatav (draggable)</li>
+            <li>kolima (animate left või right)</li>
+            <li>Raputa ja värvi (shake; background-color)</li>
+            <li>Peida (hide)</li>
         </ul>
     </section>
 </main>
 
-<!--jalus-->
 <footer>
     Vitalii leht &copy; 2026
 </footer>
-
 </body>
 </html>
