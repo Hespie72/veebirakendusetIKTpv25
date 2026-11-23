@@ -74,8 +74,8 @@ function rangeValik(){
     let vastus4 = document.getElementById("vastus4");
     let tund=document.getElementById("tund");
 
-    vastus4.innerHTML="sa kuulad muusikat: "+tund.value+"tundi";
-
+    vastus4.innerHTML="sa kuulad muusikat: "+tund.value+" tundi";
+    vastus4.style.backgroundColor="lightgreen";
     return tund.value;
 }
 function selectValik(){
@@ -87,6 +87,7 @@ function selectValik(){
     } else {
         vastus5.innerHTML="Palun tee oma valik";
     }
+    vastus5.style.backgroundColor="lightgreen";
     return stiil.value;
 }
 function arvamusLugemine(){

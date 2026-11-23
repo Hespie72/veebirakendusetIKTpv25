@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <title>Muusika küsimustik</title>
     <link rel="stylesheet" href="vormStyle.css">
-    <script src="https://jquery.com"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.min.js"
+            integrity="sha256-mblSWfbYzaq/f+4akyMhE6XELCou4jbkgPv+JQPER2M="
+            crossorigin="anonymous"></script>
     <script src="../tood/javascript/kusimustikScript.js"></script>
     <style>
         .viga {
@@ -27,7 +32,7 @@
                 let valid = true;
 
                 let tekst = $('#nimi').val().trim();
-                if(tekst === "" || !/^[a-zA-ZõäöüÕÄÖÜ\s]+$/.test(tekst)){
+                if(tekst === ""){
                     $('#viga1').show();
                     valid = false;
                 } else { $('#viga1').hide(); }

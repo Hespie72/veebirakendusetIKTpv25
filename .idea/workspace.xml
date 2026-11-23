@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="Tehtud esmine osa &quot;jQuery kasutamine veebilehel&quot;">
+      <change afterPath="$PROJECT_DIR$/tood/jQuery/jQuerySelgita.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kusimustik/kusimustik.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kusimustik/kusimustik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tood/javascript/kusimustikScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/tood/javascript/kusimustikScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
       <list>
         <option value="TypeScript File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,49 +40,53 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Hespie72/veebirakendusetIKTpv25.git",
-    "accountId": "c5b130eb-5eab-40e0-8755-262edb68fc60"
+    "accountId": "8a7ef44d-0163-4e98-9207-83fa5cdc2b3c"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="3J8DTRdTqxxgyA32tMhfZcPJNP4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.autodObjekt.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.canvasJoonistamine.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.kusimustik.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.kuupaevFunktsiionid.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.maparea.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.paberiulesanne.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.piltideVahetus.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.raamatukogu.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.tabelid.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ulesanneKusimustik.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.raamatukoguScript.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/opilane/Desktop/veebirakendusetIKTpv25/tood/javascript&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm-2024.3.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.autodObjekt.html.executor": "Run",
+    "JavaScript Debug.canvasJoonistamine.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.jQuerySelgita.html.executor": "Run",
+    "JavaScript Debug.kusimustik.html.executor": "Run",
+    "JavaScript Debug.kuupaevFunktsiionid.html.executor": "Run",
+    "JavaScript Debug.maparea.html.executor": "Run",
+    "JavaScript Debug.paberiulesanne.html.executor": "Run",
+    "JavaScript Debug.piltideVahetus.html.executor": "Run",
+    "JavaScript Debug.raamatukogu.html.executor": "Run",
+    "JavaScript Debug.tabelid.html.executor": "Run",
+    "JavaScript Debug.ulesanneKusimustik.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.raamatukoguScript.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/opilane/Desktop/veebirakendusetIKTpv25/tood/javascript",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm-2024.3.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\opilane\Desktop\veebirakendusetIKTpv25\tood\javascript" />
@@ -116,6 +124,7 @@
       <workItem from="1793018799293" duration="3414000" />
       <workItem from="1794228061375" duration="9214000" />
       <workItem from="1794832571909" duration="10074000" />
+      <workItem from="1795436938875" duration="6612000" />
     </task>
     <task id="LOCAL−00001" summary="lisa map area">
       <option name="closed" value="true" />

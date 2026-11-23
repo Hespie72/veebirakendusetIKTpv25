@@ -111,3 +111,54 @@ section#pildigalerii{
     border: none;
     border-radius: 10px;
 }
+.juhend {
+    display: none;
+    padding: 10px;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+#pilt {
+    display: none;
+    margin-top: 10px;
+}
+
+#efekt1, #efekt2, #efekt3,
+#efekt4, #efekt5, #efekt6 {
+    background-color: deepskyblue;
+    color: white;
+    padding: 12px;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+#h5 {
+    text-align: center;
+    color: white;
+}
+input {
+    background-color: deepskyblue;
+    color: white;
+    width: 8%;
+    height: 3%;
+    border: none;
+}
+#nupp1 {
+    top: 150px;
+    left: 37%;
+    border-radius: 5%;
+}
+#nupp2 {
+    top: 150px;
+    left: 57%;
+    border-radius: 5%;
+}
+#list1 {
+    border: 2px solid royalblue;
+    width: 200px;
+}
