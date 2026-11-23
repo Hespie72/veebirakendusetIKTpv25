@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="Tehtud esmine osa &quot;jQuery kasutamine veebilehel&quot;">
-      <change afterPath="$PROJECT_DIR$/tood/jQuery/jQuerySelgita.html" afterDir="false" />
+    <list default="true" id="b9b22308-e115-4664-8057-82160563a80e" name="Changes" comment="Kusimustik osa 2 jQuery tehtud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kusimustik/kusimustik.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kusimustik/kusimustik.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tood/javascript/kusimustikScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/tood/javascript/kusimustikScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tood.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,7 @@
       <workItem from="1793018799293" duration="3414000" />
       <workItem from="1794228061375" duration="9214000" />
       <workItem from="1794832571909" duration="10074000" />
-      <workItem from="1795436938875" duration="6612000" />
+      <workItem from="1795436938875" duration="10357000" />
     </task>
     <task id="LOCAL−00001" summary="lisa map area">
       <option name="closed" value="true" />
@@ -196,7 +194,14 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1794842674825</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Kusimustik osa 2 jQuery tehtud">
+      <option name="closed" value="true" />
+      <created>1795443910625</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1795443910625</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +226,7 @@
     <MESSAGE value="Lisa canvas HTML" />
     <MESSAGE value="Lisa jQuery" />
     <MESSAGE value="Tehtud esmine osa &quot;jQuery kasutamine veebilehel&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tehtud esmine osa &quot;jQuery kasutamine veebilehel&quot;" />
+    <MESSAGE value="Kusimustik osa 2 jQuery tehtud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kusimustik osa 2 jQuery tehtud" />
   </component>
 </project>

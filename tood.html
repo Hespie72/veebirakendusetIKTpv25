@@ -5,26 +5,113 @@
     <meta charset="UTF-8">
     <title>Vitalii veebirakenduste aluste tööd</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        ul {
+            width: 200px;
+        }
+
+        ul li ul {
+            list-style-type: none;
+        }
+
+        a {
+            display: inline-block;
+            border-bottom: 1px solid #fff;
+            text-decoration: none;
+            background: royalblue;
+            color: #fff;
+            padding: 0.3em;
+        }
+        nav {
+        rgba(65, 105, 225, 0.3)
+        }
+
+
+        #menyy a {
+        background: rgba(65, 105, 225, 0.3)
+        }
+        a:hover {
+            background-color: deepskyblue;
+        }
+
+        #menyy,
+        #menyy ul {
+            display: block;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+        }
+
+        #menyy {
+            margin: 20px;
+        }
+
+        #menyy li {
+            display: block;
+            float: none;
+            padding: 0;
+            background: none;
+        }
+
+        #menyy li ul {
+            margin-left: 40px;
+        }
+
+        #menyy a {
+            display: block;
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid black;
+        }
+
+        #menyy a:hover {
+            background-color: deepskyblue;
+            font-weight: bold;
+        }
+        nav > ul {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            width: auto;
+        }
+
+        nav > ul > li {
+            float: none;
+        }
+
+        #menyy {
+            margin: 0;
+        }
+
+        #menyy li ul {
+            margin-left: 0;
+        }
+    </style>
 </head>
 <body>
-<!--veebilehe sisu-->
-<!--päis-->
 <header>
-    <h1>
-        Vitalii veebirakenduste aluste tööd
-    </h1>
+    <h1>Vitalii veebirakenduste aluste tööd</h1>
 </header>
-<!--nävigeerimismenüü-->
+
 <nav>
     <ul>
-        <li>
-            <a href="index.html">Kodu</a>
-        </li>
-        <li>
-            <a href="tutvustus.html">Tutvustus</a>
-        </li>
+        <li><a href="index.html">Kodu</a></li>
+        <li><a href="tutvustus.html">Tutvustus</a></li>
         <li><a href="lingid.html">Kasulikud lingid</a></li>
-        <li><a href="tood.html">Tehtud tööd</a></li>
+        <li>
+            <ul id="menyy">
+                <li>
+                    <a href="#">Tehtud tööd</a>
+                    <ul>
+                        <li><a href="tood/joonis/canvasJoonistamine.html">Canvas Joonistamine</a></li>
+                        <li><a href="tood/tabelid.html">Tabelid</a></li>
+                        <li><a href="Kusimustik/kusimustik.html">Küsimustik</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="meedia.html">Meedia</a></li>
     </ul>
 </nav>
 <!--põhisisu-->

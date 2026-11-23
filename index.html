@@ -36,10 +36,8 @@
         function start() {
             $('#kast1').draggable();
             $('#kast2').draggable();
-            $('#kast3').draggable();
             $('#kast1').bind("drag", xyKoordinat);
             $('#kast2').bind("drag", xyKoordinat);
-            $('#kast3').bind("drag", xyKoordinat);
         }
         function xyKoordinat(event, ui){
             let koht = ui.offset;
@@ -58,7 +56,7 @@
     </h1>
 </header>
 <!--nävigeerimismenüü-->
-<nav id="kast3">
+<nav>
     <ul>
         <li>
             <a href="index.html">Kodu</a>

@@ -22,7 +22,7 @@ header {
     background-repeat: no-repeat;
     width: 100%;
     top: 0;
-    height: 180px;
+    height: 200px;
 }
 footer{
     width: 100%;
@@ -71,7 +71,7 @@ nav ul li{
 }
 nav ul li a{
     display: block;
-    color: royalblue;
+    color: white;
     text-decoration: none; /* alljoone on kustutatud*/
     padding: 10px;
     text-align: center;
@@ -80,7 +80,7 @@ nav ul li a{
     font-variant: small-caps;
 }
 nav ul li a:hover{ /*link fokuses - hiir on peal*/
-    background-color: lightsteelblue;
+    background-color: deepskyblue;
 }
 nav{
     padding: 30px;
